@@ -1,14 +1,13 @@
 :root {
   --very-dark-grayish-blue: hsl(217, 19%, 35%);
- --desaturated-dark-blue: hsl(214, 17%, 51%);
- --grayish-blue: hsl(212, 23%, 69%);
- --light-grayish-blue: hsl(210, 46%, 95%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
 
-
- --ff-manrope: "Manrope", sans-serif;
- --fs-normal: 13px;
- --fw-normal: 500;
- --fw-bold: 700;
+  --ff-manrope: 'Manrope', sans-serif;
+  --fs-normal: 13px;
+  --fw-normal: 500;
+  --fw-bold: 700;
 }
 
 body {
@@ -90,7 +89,8 @@ main {
   border-radius: 50%;
   margin-left: auto;
 }
-
-.share-btn {
-
-}
+/* TODO
+  [ ] Card box shadow
+  [ ] Desktop breakpoint
+  [ ] Active state for author-info (mobile & desktop)
+ */
