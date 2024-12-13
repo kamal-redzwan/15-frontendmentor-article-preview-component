@@ -22,40 +22,42 @@
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
-    <main class="article-preview">
+    <article class="article">
       <img
         src="./images/drawers.jpg"
         alt="picture of a drawer with props on top"
       />
-      <div class="copy">
-        <h1>
+      <div class="article__content">
+        <h1 class="article__heading">
           Shift the overall look and feel by adding these wonderful touches to
           furniture in your home
         </h1>
-        <p>
+        <p class="article__copy">
           Ever been in a room and felt like something was missing? Perhaps it
           felt slightly bare and uninviting. I’ve got some simple tips to help
           you make any room feel complete.
         </p>
       </div>
-      <div class="author-info">
-        <img
-          class="author-avatar"
-          src="./images/avatar-michelle.jpg"
-          alt="headshot of the author"
-        />
-        <div class="author-name_date">
-          <h2>Michelle Appleton</h2>
-          <p>28 Jun 2020</p>
-        </div>
-        <div class="btn-wrapper">
+      <footer class="article__footer">
+        <div class="article__footer-content">
           <img
-            class="share-btn"
-            src="./images/icon-share.svg"
-            alt="share icon"
+            class="article__avatar"
+            src="./images/avatar-michelle.jpg"
+            alt="headshot of the author"
           />
+          <div class="article__info">
+            <h2 class="article__info-name">Michelle Appleton</h2>
+            <p class="article__info-date">28 Jun 2020</p>
+          </div>
+          <button class="article__button">
+            <img
+              class="share-btn"
+              src="./images/icon-share.svg"
+              alt="share icon"
+            />
+          </button>
         </div>
-      </div>
-    </main>
+      </footer>
+    </article>
   </body>
 </html>
